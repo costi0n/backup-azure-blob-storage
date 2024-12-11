@@ -9,7 +9,7 @@
 #   In caso di errore, invia una notifica email.
 #
 # Data: 2024-12-10
-# Autore: Costinel Ghita <costinel@netcare.it>
+# Autore: Costinel Ghita 
 #
 # Funzionalità principali:
 # - Alla prima esecuzione (quando lo snapshot non esiste) esegue un full backup.
