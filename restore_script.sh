@@ -6,7 +6,7 @@
 #   memorizzati su Azure Blob Storage.
 #
 # Data: 2024-12-11
-# Autore: Costinel Ghita <costinel@netcare.it>
+# Autore: Costinel Ghita
 #
 # Funzionamento:
 #   1. Data una data di riferimento (YYYYMMDD) e una directory di destinazione, lo script
