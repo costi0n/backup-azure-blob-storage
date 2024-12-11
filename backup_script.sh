@@ -40,7 +40,13 @@ exec >>"$LOG_FILE" 2>&1
 
 TAR_BIN=$(command -v tar)
 RCLONE_BIN=$(command -v rclone)
-MAIL_BIN=$(command -v mail)
+
+# Utilizzo di mailtools per inviare email
+#MAIL_BIN=$(command -v mail)
+
+# Utilizzo di mail.py per inviare email
+MAIL_BIN=$(command -v python3) "$(dirname "$0")/mail.py"
+
 
 # Verifica requisiti base
 if [ ! -d "$SOURCE_DIR" ]; then
